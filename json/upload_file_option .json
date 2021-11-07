@@ -1,0 +1,32 @@
+{
+    "api": {
+        "result": 0,
+        "message": "",
+        "data": {
+            "PRL": {
+                "TechPack": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ],
+                "Packing": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ]
+            },
+            "TOMMY": {
+                "Tech": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ],
+                "Pack": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ],
+                "P0s": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ]
+            }
+        }
+    }
+}

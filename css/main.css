@@ -1,0 +1,470 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.all {
+    height: 440px;
+    width: 925px;
+    margin: 0px auto;
+}
+
+.email {
+    padding: 25px;
+    color: white;
+    background-color: rgb(144, 153, 162);
+    margin-bottom: 20px;  
+}
+
+.list1 {
+    margin-bottom: -1px;
+}
+
+.list1 .d1 {
+    padding-left: 0px;
+}
+
+.list1 .d2 {
+    padding-right: 0px;
+}
+
+.list1 .b1 {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    height: 38px;
+    width: 120px;
+    margin-right: -2px;
+    font-weight: bold;
+    border-color: black;
+}
+
+.list1 .b2 {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    height: 38px;
+    width: 120px;
+    margin-left: -2px;
+    border-color: black;
+}
+
+.list1 .b3 {
+    background-color: rgb(171, 202, 221);
+    color: black;
+    font-size: 12px;
+    height: 38px;
+    width: 63px;
+    float: right;
+    border-color: black;
+}
+
+.frame1 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(171, 171, 171);
+    padding: 10px;
+}
+
+.list2 {
+    display: inline-block
+}
+
+.list2 .d5 {
+    margin-left: 10px;
+    width: 440px;
+    
+}
+
+.list2 .b1 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    height: 40px;
+    width: 225px;
+    border-color: black;
+}
+
+.list2 .b2 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    height: 40px;
+    width: 225px;
+    margin-left: 20px;
+    border-color: black;
+}
+
+.list2 .b3 {
+    background-color: rgb(171, 202, 221);
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+    border-color: black;
+}
+
+.list2 .b4 {
+    background-color: rgb(171, 202, 221);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    height: 40px;
+    width: 80px;
+    margin-left: 20px;
+    display: none;
+    border-color: black;
+}
+
+.list2 .b5 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    height: 42px;
+    width: 440px;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    display: none;
+    padding: 0px;
+}
+
+.list3 {
+    display: none;
+}
+
+.list3 .d1 {
+    width: 230px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.list3 .b1 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    height: 40px;
+    width: 225px;
+    margin-right: 20px;
+    border-color: black;
+}
+
+.list3 .b2 {
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    height: 40px;
+    width: 445px;
+}
+
+.list4 .b1 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    height: 40px;
+    width: 145px;
+    border-color: black;
+}
+
+.list4 .b2 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    height: 40px;
+    width: 145px;    
+    border-color: black;
+}
+
+.list4 .b3 {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 15px;
+    height: 40px;
+    width: 145px;
+    border-color: black;
+}
+
+.list4 .b4 {
+    text-align: left;
+    font-size: 15px;
+    height: 40px;
+    width: 190px;
+}
+
+.list4 .b5 {
+    background-color: rgb(171, 202, 221);
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    height: 45px;
+    width: 130px;
+    margin-left: 20px;
+    border-color: black;
+}
+
+.list4 .d1 {
+    width: 155px;
+}
+
+.list4 .d2 {
+    width: 155px;
+}
+
+.list4 .d3 {
+    width: 155px;
+}
+
+.list4 .d4 {
+    width: 200px;
+    
+}
+
+.list4 .d5 {
+    border-color: black;
+}
+
+.list5 {
+    display: none;
+}
+
+.list5 .b1 {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.list5 .b2 {
+    width: 550px;
+    height: 40px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.list5 .b3 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.list5 .d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+.list5 .d2 {
+    height: 60px;
+}
+
+.list5 .d3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list5 .frame1 {
+    border: 1px solid rgb(156, 156, 156);
+    width: 740px;
+    height: 60px;
+}
+
+.list5 .item1 {
+    font-size: 15px;
+    padding-right: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center
+}
+
+.list5 .item2 {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.list6 {
+    display: none;
+}
+
+.list6 .b1 {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.list6 .b2 {
+    width: 550px;
+    height: 40px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.list6 .b3 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.list6 .d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.list6 .d2 {
+    height: 60px;
+}
+
+.list6 .d3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list6 .frame1 {
+    border: 1px solid rgb(156, 156, 156);
+    width: 740px;
+    height: 60px;
+}
+
+.list6 .item1 {
+    font-size: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.list6 .item2 {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.list7 {
+    display: none;
+    margin-bottom: 50px;
+}
+
+.list7 .b1 {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.list7 .b2 {
+    width: 550px;
+    height: 40px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.list7 .b3 {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.list7 .d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.list7 .d2 {
+    height: 60px;
+}
+
+.list7 .d3 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list7 .frame1 {
+    border: 1px solid rgb(156, 156, 156);
+    width: 740px;
+    height: 60px;
+}
+
+.list7 .item1 {
+    font-size: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.list7 .item2 {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.list8 {
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+.list8 .b1 {
+    background-color: rgb(204, 204, 204);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    height: 45px;
+    width: 75px;
+    border-color: black;
+}
+
+.list8 .b2 {
+    background-color: rgb(171, 202, 221);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    height: 45px;
+    width: 75px;
+    border-color: black;
+    margin-left: 25px;
+}
