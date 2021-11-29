@@ -1,0 +1,159 @@
+{
+    "autosave_key_value_mapping": {
+        "old_cfg_nm": "PRL_configuration",
+        "new_cfg_nm": "PRL_configuration",
+        "old_file_type": "TechPack",
+        "new_file_type": "TechPack",
+        "cell_type_version": "202101110959",
+        "relation_version": "202012110958",
+        "table_version": "201801110910",
+        "model_name": "123",
+        "data": [
+            {
+                "field": "KEY_STATUS",
+                "fieldvalue": [
+                    "status",
+                    "Status"
+                ],
+                "version_check": 0
+            },
+            {
+                "field": "KEY_SEASON",
+                "fieldvalue": [
+                    "season",
+                    "Seasons"
+                ],
+                "version_check": 1
+            }
+        ]
+    },
+    "get_key_value_mapping": {
+        "result": 0,
+        "message": "",
+        "data": {
+            "configuration_PRL": [
+                {
+                    "field": "KEY_STATUS",
+                    "fieldvalue": [
+                        "status"
+                    ],
+                    "version_check": 0,
+                    "model_name": "PRL_Kid's",
+                    "cell_type_version": "202101110959",
+                    "relation_version": "202101110959",
+                    "table_version": "202101110959"
+                },
+                {
+                    "field": "TP_PRODUCT_DEVELOPER",
+                    "fieldvalue": [
+                        "Product Developer"
+                    ],
+                    "version_check": 0,
+                    "model_name": "PRL_Kid's",
+                    "cell_type_version": "202101110959",
+                    "relation_version": "202101110959",
+                    "table_version": "202101110959"
+                },
+                {
+                    "field": "TP_MERCH_DIVISION",
+                    "fieldvalue": [
+                        "Merch Division"
+                    ],
+                    "version_check": 1,
+                    "model_name": "PRL_Kid's",
+                    "cell_type_version": "202101110959",
+                    "relation_version": "202101110959",
+                    "table_version": "202101110959"
+                }
+            ],
+            "configuration_TOMMY": [
+                {
+                    "field": "KEY_STATUS",
+                    "fieldvalue": [
+                        "status"
+                    ],
+                    "version_check": 0,
+                    "model_name": "PRL_Kid's",
+                    "cell_type_version": "202101110959",
+                    "relation_version": "202101110959",
+                    "table_version": "202101110959"
+                },
+                {
+                    "field": "TP_MERCH_DIVISION",
+                    "fieldvalue": [
+                        "Merch Division"
+                    ],
+                    "versoin_cleck": 1,
+                    "model_name": "PRL_Kid's",
+                    "cell_type_version": "202101110959",
+                    "relation_version": "202101110959",
+                    "table_version": "202101110959"
+                }
+            ]
+        }
+    },
+    "get_rpa_model_listoutput": {
+        "models": {
+            "PRL_TechPack": {
+                "cell_type": [
+                    "202101110959",
+                    "2020121109598"
+                ],
+                "relation": [
+                    "20210111959",
+                    "201901110959"
+                ],
+                "table": [
+                    "202101110959",
+                    "201910110920",
+                    "201801110910"
+                ]
+            },
+            "TOMMY_TechPack": {
+                "cell_type": [
+                    "0000000001",
+                    "0000000000"
+                ],
+                "relation": [
+                    "0000000001",
+                    "0000000000"
+                ],
+                "table": [
+                    "0000000001",
+                    "0000000000"
+                ]
+            }
+        },
+        "status": true
+    },
+    "upload_file_option": {
+        "result": 0,
+        "message": "",
+        "data": {
+            "PRL": {
+                "TechPack": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ],
+                "Packing": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ]
+            },
+            "TOMMY": {
+                "Tech": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ],
+                "Pack": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ],
+                "P0s": [
+                    "Polo R.L.-kid_s",
+                    "POLO R.L.-Men_s"
+                ]
+            }
+        }
+    }
+}

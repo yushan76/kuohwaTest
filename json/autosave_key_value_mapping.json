@@ -1,29 +1,29 @@
 {
-    "api":{
-        "old_cfg_nm":"PRL_configuration",
-        "new_cfg_nm":"PRL_configuration",
-        "old_file_type":"TechPack",
-        "new_file_type":"TechPack",
-        "cell_type_version":"202101110959",
-        "relation_version":"202012110958",
-        "table_version":"201801110910",
-        "model_name":"123",
-        "data":[
+    "api": {
+        "old_cfg_nm": "PRL_configuration",
+        "new_cfg_nm": "PRL_configuration",
+        "old_file_type": "TechPack",
+        "new_file_type": "TechPack",
+        "cell_type_version": "202101110959",
+        "relation_version": "202012110958",
+        "table_version": "201801110910",
+        "model_name": "123",
+        "data": [
             {
-                "field":"KEY_STATUS",
-                "fieldvalue":[
+                "field": "KEY_STATUS",
+                "fieldvalue": [
                     "status",
                     "Status"
                 ],
-                "version_check":0
+                "version_check": 0
             },
             {
-                "field":"KEY_SEASON",
-                "fieldvalue":[
+                "field": "KEY_SEASON",
+                "fieldvalue": [
                     "season",
                     "Seasons"
                 ],
-                "version_check":1
+                "version_check": 1
             }
         ]
     }

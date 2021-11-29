@@ -297,6 +297,7 @@
 
 .list5 .item2 {
     width: 600px;
+    height: 40px;
     margin: auto;
     display: flex;
     justify-content: right;
@@ -364,6 +365,7 @@
 
 .list6 .item2 {
     width: 600px;
+    height: 40px;
     margin: auto;
     display: flex;
     justify-content: right;
@@ -432,6 +434,7 @@
 
 .list7 .item2 {
     width: 600px;
+    height: 40px;
     margin: auto;
     display: flex;
     justify-content: right;

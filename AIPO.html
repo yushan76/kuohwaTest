@@ -19,6 +19,9 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
         integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous">
         </script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -51,23 +54,25 @@
                     <div class=" d1" id="filetype_div">
                         <div class="btn-group">
                             <button type="button" class="btn btn-light dropdown-toggle b1" aria-expanded="false"
-                                data-toggle="dropdown" data-toggle="tab" id="filetype_btn" >選擇檔案類型</button>
+                                data-toggle="dropdown" data-toggle="tab" id="filetype_btn">選擇檔案類型</button>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><button class="dropdown-item" type="button" id="select_1">PRL</button></li>
+                                <li><button class="dropdown-item" type="button" id="select_1"></button></li>
+                                <li><button class="dropdown-item" type="button" id="select_2"></button></li>
+
                             </ul>
                         </div>
                     </div>
                     <div class=" d2" id="selecterp_div">
-                        <div class="btn-group">                                                                                           
+                        <div class="btn-group">
                             <button type="button" class="btn btn-light dropdown-toggle b2" id="selecterp_btn"
                                 data-toggle="dropdown" aria-expanded="falslighte">選擇<font style="color: red;">ERP對應管理
                                 </font>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li><button class="dropdown-item" type="button" id="select_prl"
-                                        onclick="show_func()">configuration_PRL</button></li>
+                                        onclick="show_func()"></button></li>
                                 <li><button class="dropdown-item" type="button" id="select_tommy"
-                                        onclick="show_func()">configuration_TOMMY</button></li>
+                                        onclick="show_func()"></button></li>
                             </ul>
                         </div>
                     </div>
@@ -80,10 +85,11 @@
                     </div>
                     <div class="d4" id="edit_div">
                         <div class="btn-group">
-                            <button type="button" class="btn btn-light b4" id="edit_btn" onclick="edit_func()">編輯</button>
+                            <button type="button" class="btn btn-light b4" id="edit_btn"
+                                onclick="edit_func()">編輯</button>
                         </div>
                     </div>
-                    <div class="d5 d-none" id="nameerp_div">
+                    <div class="d5 " id="nameerp_div">
                         <div class="btn-group">
                             <input type="email" class="form-control b5" id="nameerp_inp" placeholder="&ensp;命名此ERP對應管理">
                         </div>
@@ -96,9 +102,11 @@
                     <div class="d1">
                         <div class="btn-group ">
                             <button type="button" class="btn btn-light dropdown-toggle b1" data-toggle="dropdown"
-                                aria-expanded="false" data-toggle="tab">重新選擇檔案類型</button>
+                                aria-expanded="false" data-toggle="tab" id="reselect_btn">重新選擇檔案類型</button>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><button class="dropdown-item" type="button">PRL</button></li>
+                                <li><button class="dropdown-item" type="button" id="select_re"></button></li>
+                                <li><button class="dropdown-item" type="button" id="select_re1"></button></li>
+
                             </ul>
                         </div>
                     </div>
@@ -122,7 +130,7 @@
                                 選擇表格模型
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end ">
-                                <li><button class="dropdown-item" type="button" id="select_tabular">table_version
+                                <li><button class="dropdown-item" type="button" id="select_tabular">
                                     </button></li>
                             </ul>
                         </div>
@@ -134,7 +142,7 @@
                                 選擇單元格模
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end ">
-                                <li><button class="dropdown-item" type="button" id="select_module">cell_type_version
+                                <li><button class="dropdown-item" type="button" id="select_module">
                                     </button></li>
                             </ul>
                         </div>
@@ -146,14 +154,14 @@
                                 選擇關聯模型
                             </button>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><button class="dropdown-item" type="button" id="select_associate">relation_version
+                                <li><button class="dropdown-item" type="button" id="select_associate">
                                     </button></li>
                             </ul>
                         </div>
                     </div>
                     <div class="d4">
                         <div class="mb-3">
-                            <input type="email" class="form-control b4" id="exampleFormControlInput1"
+                            <input type="email" class="form-control b4" id="exampleFormControlInput2"
                                 placeholder="重新命名此版本模型名稱">
                         </div>
                     </div>
@@ -181,17 +189,14 @@
                                 </div>
                                 <div class="col-lg-10 item2">
                                     <select class="js-example-basic-single js-states form-control b2"
-                                        id="id_label_single">
-                                        <option value="AL">Board#</option>
-                                        <option value="AL">Board Num</option>
-                                        <option value="AL">Board Number</option>
+                                        id="id_label_single1">
                                     </select>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col d3">
-                        <i class="d3 fas fa-trash-alt fa-1x" id="trash_icon1"></i>
+                        <i class="d3 fas fa-trash-alt fa-2x" id="trash_icon1"></i>
                     </div>
                 </div>
             </div>
@@ -199,7 +204,7 @@
             <div class="container mt-4 list6" id="list6">
                 <div class="row">
                     <div class="col d1">
-                        <input class="form-check-input b1" type="checkbox" id="checkboxNoLabel" value=""
+                        <input class="form-check-input b1" type="checkbox" id="checkboxNoLabe2" value=""
                             aria-label="...">
                     </div>
                     <div class="col-10 d2">
@@ -210,16 +215,14 @@
                                 </div>
                                 <div class="col-lg-10 item2">
                                     <select class="js-example-basic-single js-states form-control b2"
-                                        id="id_label_single">
-                                        <option value="AL">Status</option>
-                                        <option value="AL">Type</option>
+                                        id="id_label_single2">
                                     </select>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col d3">
-                        <i class="d3 fas fa-trash-alt fa-1x" id="trash_icon2"></i>
+                        <i class="d3 fas fa-trash-alt fa-2x" id="trash_icon2"></i>
                     </div>
                 </div>
             </div>
@@ -227,7 +230,7 @@
             <div class="container mt-4 mb-5 list7" id="list7">
                 <div class="row">
                     <div class="col d1">
-                        <input class="form-check-input b1" type="checkbox" id="checkboxNoLabel" value=""
+                        <input class="form-check-input b1" type="checkbox" id="checkboxNoLabe3" value=""
                             aria-label="...">
                     </div>
                     <div class="col-10 d2">
@@ -238,25 +241,29 @@
                                 </div>
                                 <div class="col-lg-10 item2">
                                     <select class="js-example-basic-single js-states form-control b2"
-                                        id="id_label_single">
+                                        id="id_label_single3">
                                     </select>
                                 </div>
-                            </div>.
+                            </div>
                         </div>
                     </div>
                     <div class="col d3">
-                        <i class="d3 fas fa-trash-alt fa-1x" id="trash_icon3"></i>
+                        <i class="d3 fas fa-trash-alt fa-2x" id="trash_icon3"></i>
                     </div>
                 </div>
             </div>
 
             <div class="button list8 d-none" id="list8">
                 <button type="button" class="btn btn-light me-5 b1">取消</button>
-                <button type="button" class="btn btn-light b2">儲存</button>
+                <button type="button" class="btn btn-light b2" onclick="savefunc()">儲存</button>
             </div>
         </div>
     </div>
+    <script src="./node_modules/axios/dist/axios.min.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
