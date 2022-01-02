@@ -54,7 +54,9 @@
                             <button type="button" class="btn btn-light dropdown-toggle b1" aria-expanded="false"
                                 data-toggle="dropdown" data-toggle="tab" id="filetype_btn" >選擇檔案類型</button>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><button class="dropdown-item" type="button" id="select_1">PRL</button></li>
+                                <li><button class="dropdown-item" type="button" id="select_1"></button></li>
+                                <li><button class="dropdown-item" type="button" id="select_2"></button></li>
+
                             </ul>
                         </div>
                     </div>
@@ -97,9 +99,10 @@
                     <div class="d1">
                         <div class="btn-group ">
                             <button type="button" class="btn btn-light dropdown-toggle b1" data-toggle="dropdown"
-                                aria-expanded="false" data-toggle="tab">重新選擇檔案類型</button>
+                                aria-expanded="false" data-toggle="tab" id="reselectfile">重新選擇檔案類型</button>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><button class="dropdown-item" type="button">PRL</button></li>
+                                <li><button class="dropdown-item" type="button" id="select_re"></button></li>                                <li><button class="dropdown-item" type="button" id="select_re">PRL</button></li>
+                                <li><button class="dropdown-item" type="button" id="select_re1"></button></li>
                             </ul>
                         </div>
                     </div>
@@ -251,9 +254,9 @@
                 </div>
             </div>
 
-            <div class="button list8 d-none" id="list8">
-                <button type="button" class="btn btn-light me-5 b1">取消</button>
-                <button type="button" class="btn btn-light b2">儲存</button>
+            <div class="button list8" id="list8">
+                <button type="button" class="btn btn-light me-5 b1" onclick="cancelfunc()">取消</button>
+                <button type="button" class="btn btn-light b2" onclick="savefunc()">儲存</button>
             </div>
         </div>
     </div>
